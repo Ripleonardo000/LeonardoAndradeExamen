@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LeonardoAndradeExamen.LeonardoAndradeRecargaPage"
              Title="Recarga">
     <VerticalStackLayout Padding="20">
         <Label Text="Recarga Telefónica" FontSize="24" FontAttributes="Bold" TextColor="Blue" />
-        <Entry Placeholder="Número de teléfono" Keyboard="Telephone" />
-        <Entry Placeholder="Nombre del cliente" />
+        <Entry x:Name="PhoneNumberEntry" Placeholder="Número de teléfono" Keyboard="Telephone" />
+        <Entry x:Name="ClientNameEntry" Placeholder="Nombre del cliente" />
+        <Button Text="Recargar" BackgroundColor="Purple" TextColor="White" Clicked="OnRecargarClicked" 
+                
+                
+                />
 
 
-        <Button Text="Recargar"
-        BackgroundColor="#FF0000"  
-            TextColor="#FF00FF" 
-        Clicked="OnRecargarClicked" />
-
-
+        <Label x:Name="ResultLabel" 
+               Text="" 
+               FontSize="16" 
+               TextColor="Green" 
+               Margin="10,20,10,0" 
+               IsVisible="False" />
     </VerticalStackLayout>
+
+
 </ContentPage>
