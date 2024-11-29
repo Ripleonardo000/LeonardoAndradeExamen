@@ -9,7 +9,7 @@ namespace LeonardoAndradeExamen
 
         private async void OnRecargarClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Éxito", "Recarga realizada correctamente.", "OK");
+            await DisplayAlert("Éxitoo", "Recarga realizada correctamente.", "TRUE");
         }
     }
 }

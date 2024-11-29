@@ -11,8 +11,8 @@
 
         <Button Text="Recargar"
         BackgroundColor="#FF0000"  
-            TextColor="#FF00FF" />
-            
+            TextColor="#FF00FF" 
+        Clicked="OnRecargarClicked" />
 
 
     </VerticalStackLayout>

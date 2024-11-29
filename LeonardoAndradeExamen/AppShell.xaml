@@ -17,7 +17,7 @@
         <!-- Tab para la página de Nombre Completo -->
         <ShellContent
             Title="Nombre Completo"
-            Icon="nombre_icon.png"
+            Icon="whip.png"
             ContentTemplate="{DataTemplate local:LeonardoAndradeNombreCompletoPage}" />
     </TabBar>
 
