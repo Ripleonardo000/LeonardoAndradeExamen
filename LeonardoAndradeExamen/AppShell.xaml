@@ -7,9 +7,19 @@
     Shell.FlyoutBehavior="Disabled"
     Title="LeonardoAndradeExamen">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <!-- Tab para la página de Recarga -->
+        <ShellContent
+            Title="Recarga"
+            Icon="recarga_icon.png"
+            ContentTemplate="{DataTemplate local:LeonardoAndradeRecargaPage}" />
+
+        <!-- Tab para la página de Nombre Completo -->
+        <ShellContent
+            Title="Nombre Completo"
+            Icon="nombre_icon.png"
+            ContentTemplate="{DataTemplate local:LeonardoAndradeNombreCompletoPage}" />
+    </TabBar>
 
 </Shell>
+
